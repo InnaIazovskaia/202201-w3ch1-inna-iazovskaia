@@ -51,7 +51,7 @@ class Personaje {
     info.append(infoList);
 
     const liInfoList = document.createElement("li");
-    liInfoList.textContent = "Edad: 16 años";
+    liInfoList.textContent = this.edad;
     infoList.append(liInfoList);
 
     const cardEmoji = document.createElement("i");
