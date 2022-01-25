@@ -5,7 +5,7 @@ import CardCuerpo from "./components/CardCuerpo.js";
 
 const cardsContenedor = document.querySelector(".characters-list");
 
-personajes.map((personaje) => {
+personajes.forEach((personaje) => {
   const cardContenedor = new Component(cardsContenedor, "character col", "li");
 
   const card = new Component(
@@ -14,5 +14,13 @@ personajes.map((personaje) => {
     "div"
   );
 
-  new CardImagen(card, "character__picture card-img-to", personaje);
+  new CardImagen(card.elemento, "character__picture card-img-to", personaje);
+
+  new CardCuerpo(
+    card.elemento,
+    "card-body",
+    personaje.nombre,
+    personaje.familia,
+    personaje.edad
+  );
 });
