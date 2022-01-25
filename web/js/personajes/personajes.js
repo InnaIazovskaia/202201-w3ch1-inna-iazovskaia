@@ -3,12 +3,13 @@ import Luchador from "./Luchador.js";
 import Asesor from "./Asesor.js";
 import Escudero from "./Escudero.js";
 
-const joffrey = new Rey("Joffrey", "Baratheon", 16, "img/joffrey.jpg", 2);
+const joffrey = new Rey("Joffrey", "Baratheon", 16, "img/joffrey.jpg", "👑", 2);
 const jaime = new Luchador(
   "Jaime",
   "Lannister",
   45,
   "img/jaime.jpg",
+  "🗡",
   "Espada",
   7
 );
@@ -17,6 +18,7 @@ const daenerys = new Luchador(
   "Targaryen",
   30,
   "img/daenerys.jpg",
+  "🗡",
   "Dragones",
   10
 );
@@ -25,6 +27,7 @@ const tyrion = new Asesor(
   "Lannister",
   40,
   "img/tyrion.jpg",
+  "🎓",
   daenerys
 );
 const bronn = new Escudero(
@@ -32,6 +35,7 @@ const bronn = new Escudero(
   "AguasNegras",
   54,
   "img/bronn.jpg",
+  "🛡",
   0,
   jaime
 );
