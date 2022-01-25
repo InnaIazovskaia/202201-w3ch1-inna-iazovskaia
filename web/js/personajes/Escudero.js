@@ -10,10 +10,17 @@ class Escudero extends Personaje {
     familiaEscudero,
     edadEscudero,
     imgEscudero,
+    emojiEscudero,
     valorPelotismo,
     personajeSirve
   ) {
-    super(nombreEscudero, familiaEscudero, edadEscudero, imgEscudero);
+    super(
+      nombreEscudero,
+      familiaEscudero,
+      edadEscudero,
+      imgEscudero,
+      emojiEscudero
+    );
     this.pelotismo = this.filtrarPelotismo(valorPelotismo);
     if (personajeSirve instanceof Luchador) {
       this.sirveA = personajeSirve;

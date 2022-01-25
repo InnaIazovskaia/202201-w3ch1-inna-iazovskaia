@@ -7,9 +7,10 @@ class Asesor extends Personaje {
     familiaAsesor,
     edadAsesor,
     imgAsesor,
+    emojiAsessor,
     personajeAsesorado
   ) {
-    super(nombreAsesor, familiaAsesor, edadAsesor, imgAsesor);
+    super(nombreAsesor, familiaAsesor, edadAsesor, imgAsesor, emojiAsessor);
     if (personajeAsesorado instanceof Personaje) {
       this.asesorado = personajeAsesorado;
     }
