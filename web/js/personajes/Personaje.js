@@ -5,11 +5,12 @@ export default class Personaje {
   vivo = true;
   serie = "Juego de Tronos";
 
-  constructor(nombrePersonaje, familiaPersonaje, edadPersonaje, img) {
+  constructor(nombrePersonaje, familiaPersonaje, edadPersonaje, img, emoji) {
     this.nombre = nombrePersonaje;
     this.familia = familiaPersonaje;
     this.edad = edadPersonaje;
     this.img = img;
+    this.emoji = emoji;
   }
 
   comunicar() {

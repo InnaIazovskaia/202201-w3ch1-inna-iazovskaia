@@ -23,4 +23,6 @@ personajes.forEach((personaje) => {
     personaje.familia,
     personaje.edad
   );
+
+  new Component(card.elemento, "emoji", "i");
 });

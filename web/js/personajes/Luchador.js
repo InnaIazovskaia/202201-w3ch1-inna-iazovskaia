@@ -9,10 +9,17 @@ export default class Luchador extends Personaje {
     familiaLuchador,
     edadLuchador,
     imgLuchador,
+    emojiLuchador,
     armaLuchador,
     valorDestreza
   ) {
-    super(nombreLuchador, familiaLuchador, edadLuchador, imgLuchador);
+    super(
+      nombreLuchador,
+      familiaLuchador,
+      edadLuchador,
+      imgLuchador,
+      emojiLuchador
+    );
     this.arma = armaLuchador;
     this.destreza = this.filtraDestreza(valorDestreza);
   }
