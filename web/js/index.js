@@ -1,4 +1,4 @@
-import personajes from "./modules/personajes.js";
+import personajes from "./modules/personajes.js.js";
 
 const cardsConteiner = document.querySelector(".characters-list");
 
