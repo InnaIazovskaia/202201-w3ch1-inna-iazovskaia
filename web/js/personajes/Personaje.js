@@ -20,6 +20,8 @@ class Personaje {
     this.vivo = false;
   }
 
+  /*
+
   crearCard(personaje) {
     const cardLi = document.createElement("li");
     cardLi.classList.add("character", "col");
@@ -59,6 +61,9 @@ class Personaje {
     cardConteiner.append(cardEmoji);
 
     return cardLi;
+
+    */
+   
   }
 }
 

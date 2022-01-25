@@ -1,4 +1,7 @@
-import personajes from "./modules/personajes.js.js";
+import Component from "./components/Component.js";
+import personajes from "./personajes/personajes.js";
+
+new Component(document.body, "app conteiner", "div");
 
 const cardsConteiner = document.querySelector(".characters-list");
 

@@ -1,4 +1,4 @@
-class Component {
+export default class Component {
   elemento;
 
   constructor(elementoPadre, classNombre, htmlTag) {
