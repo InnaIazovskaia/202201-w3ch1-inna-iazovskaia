@@ -63,8 +63,6 @@ class Personaje {
     return cardLi;
 
     */
-   
-  }
 }
 
 export default Personaje;
